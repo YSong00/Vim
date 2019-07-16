@@ -67,6 +67,7 @@ Plugin 'VundleVim/Vundle.vim'
 " Plugin 'ascenator/L9', {'name': 'newL9'}
 
 Plugin 'mileszs/ack.vim'
+let g:ackprg = 'ag --nogroup --nocolor -- column'
 
 Plugin 'kien/ctrlp.vim'
 
@@ -118,4 +119,4 @@ set guioptions-=b
 set guioptions-=l
 set guioptions-=r
 winpos 100 100
-set lines=35 columns=200
+set lines=40 columns=200
